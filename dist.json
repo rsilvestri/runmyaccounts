@@ -6,6 +6,13 @@
 	"package": { "debian13": "libmojolicious-perl" }
     },
 
+	{
+    "type":    "perlmodule",
+    "name":    "DBD::SQLite",
+    "version": "0",
+    "package": { "debian13": "libdbd-sqlite3-perl" }
+	},
+
     {
 	"type":    "perlmodule",
 	"name":    "Mojolicious::Plugin::I18N",
