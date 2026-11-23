@@ -385,6 +385,19 @@ $software
 
 }
 
+sub mojo_admin_button {
+    my ($label, $path) = @_;
+    
+    return "\n" .
+        qq|<input type="submit" class="submit" | .
+        qq|name="action" value="| . $locale->text($label) . qq|" | .
+        qq|formmethod="$form_method" | .
+        qq|formaction="mojo.pl$path" />\n| .
+        qq|<input type="hidden" name="login" value="root login" />\n|;
+
+    # Localization: see locale/*/admin
+}
+
 
 sub form_header {
 
@@ -1240,6 +1253,10 @@ sub dbselect_source {
 <input type=submit class=submit name=action value="|.$locale->text('Create Dataset').qq|">
 <input type=submit class=submit name=action value="|.$locale->text('Update Dataset').qq|">
 <input type=submit class=submit name=action value="|.$locale->text('Delete Dataset').qq|">
+
+|
+    . mojo_admin_button("Backup/Restore", "/admin/backup_restore/start")
+    . qq|
 </form>
 
     </td>
