@@ -3,7 +3,7 @@
 	"type":    "perlmodule",
 	"name":    "Mojolicious",
 	"version": "7.21",
-	"package": { "debian9": "libmojolicious-perl" }
+	"package": { "debian13": "libmojolicious-perl" }
     },
 
     {
@@ -14,18 +14,18 @@
 
     {
 	"type":    "perlmodule",
+	"name":    "DBIx::XHTML_Table",
+	"version": "0"
+    },
+
+    {
+	"type":    "perlmodule",
 	"name":    "DBI",
 	"version": "0",
 	"package": { "debian13": "libdbi-perl" }
     },
 
-	{
-    "type":    "perlmodule",
-    "name":    "DBD::SQLite",
-    "version": "0",
-    "package": { "debian13": "libdbd-sqlite3-perl" }
-	},
-	{
+    {
 	"type":    "perlmodule",
 	"name":    "DBD::Pg",
 	"version": "0",
@@ -61,9 +61,144 @@
     },
 
     {
+	"type":    "perlmodule",
+	"name":    "JSON::XS",
+	"version": "0",
+	"package": { "debian13": "libjson-xs-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "File::Slurper",
+	"version": "0",
+	"package": { "debian13": "libfile-slurper-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "DBD::Pg",
+	"version": "0",
+	"package": { "debian13": "libdbd-pg-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "Text::Markdown",
+	"version": "0",
+	"package": { "debian13": "libtext-markdown-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "DBIx::Simple",
+	"version": "0",
+	"package": { "debian13": "libdbix-simple-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "CGI::FormBuilder",
+	"version": "0",
+	"package": { "debian13": "libcgi-formbuilder-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "CGI::FormBuilder",
+	"version": "0",
+	"package": { "debian13": "libcgi-formbuilder-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "File::Type",
+	"version": "0",
+	"package": { "debian13": "libfile-type-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "Mojo::Pg",
+	"version": "0",
+	"package": { "debian13": "libmojo-pg-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "OpenOffice::OODoc",
+	"version": "0",
+	"package": { "debian13": "libopenoffice-oodoc-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "GD::Graph",
+	"version": "0",
+	"package": { "debian13": "libgd-graph-perl" }
+    },
+
+    {
+	"type":    "perlmodule",
+	"name":    "YAML::Tiny",
+	"version": "0",
+	"package": { "debian13": "libyaml-tiny-perl" }
+    },
+
+    {
 	"type": "executable",
 	"name": "zip",
 	"package": { "debian13": "zip" }
+    },
+
+    {
+	"type": "executable",
+	"name": "texlive",
+	"package": { "debian13": "texlive" }
+    },
+
+    {
+	"type": "executable",
+	"name": "pdftk",
+	"package": { "debian13": "pdftk" }
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "HTML::FromText",
+	"version": "0",
+	"package": { "debian13": "libhtml-fromtext-perl" }
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "Crypt::PK::RSA",
+	"version": "0",
+	"package": { "debian13": "libcrypt-jwt-perl" }
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "Crypt::X509",
+	"version": "0"
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "Data::Format::Pretty::JSON",
+	"version": "0"
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "HTML::Table",
+	"version": "0",
+	"package": { "debian13": "libhtml-table-perl" }
+    },
+
+	{
+	"type":    "perlmodule",
+	"name":    "Data::Format::Pretty::JSON",
+	"version": "0"
     }
 
 ]
